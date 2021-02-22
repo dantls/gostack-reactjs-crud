@@ -20,4 +20,8 @@ export const FoodsContainer = styled.div`
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
   }
+  @media (max-width: 500px) {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+  }
 `;
